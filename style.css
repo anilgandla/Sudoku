@@ -1,0 +1,29 @@
+#sudoku{
+width:450px;
+height:450px;
+margin-left:20%;
+margin-top:10%;
+border:1px solid black;
+float:left;
+}
+input
+{
+	width:50px;
+	height:50px;
+	padding-left:20px;
+}
+#submit
+{
+	/*margin-left:70%;*/
+	margin-top:25%;
+	float:left;
+}
+button{
+	margin-left:350px;
+	background:transparent;
+}
+p{
+	margin-left:360px;
+}
+
+
