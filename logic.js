@@ -32,6 +32,36 @@ for(let i=0;i<9;i++)
 		div.appendChild(boxes[i][j]);
 	}
 }
+for(let i=0;i<9;i++){
+	for(let j=0;j<9;j++){
+			boxes[i][j].style.border="1px solid #D8D8D8";
+	}
+}
+
+
+
+for(let i=0;i<9;i+=3){
+	for(let j=0;j<9;j++){
+			//boxes[i][j].style.border="0";
+			boxes[i][j].style.borderTop="2px solid #000000";
+		}
+}
+for(let j=0;j<9;j++){
+	boxes[8][j].style.borderBottom="2px solid #000000";
+}
+
+for(let i=0;i<9;i+=3){
+	for(let j=0;j<9;j++){
+			//boxes[i][j].style.border="0";
+			boxes[j][i].style.borderLeft="2px solid #000000";
+		}
+}
+for(let j=0;j<9;j++){
+	boxes[j][8].style.borderRight="2px solid #000000";
+}
+	
+
+		
 
 for(let i=0;i<N;i+=sqrt){
 	fillbox(i,i);
